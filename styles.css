@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Macondo&family=Roboto+Condensed:wght@300&family=Rubik&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+/*<------------------------Default CSS Style----------------------------->*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: Arial,sans-serif; */
+}
+
+body {
+    width: 100%;
+    background: #ffffff;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+/*<------------------------The End-------------------------------------->*/
+
+/* <-------------------CSS Style for Header Section----------------------> */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e3e6f3;
+    /* background: #ff74a4; */
+    /* background: #ffffff; */
+    box-shadow: 0 5px rgb(0, 0, 0, 0.15);
+    padding: 0px 70px;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    width: 125px;
+}
+
+.search-bar #search {
+    width: 570px;
+    height: 36px;
+    outline: none;
+    padding: 0 16px;
+    font-size: 14px;
+    border: 1px solid #e3e6f3;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+    position: absolute;
+    height: 35px;
+    outline: none;
+    border: 0;
+    margin-left: -43px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #8a2be221
+}
+
+.search-bar button i {
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    margin-left: -50x;
+}
+
+.search-bar img {
+    width: 40px;
+    background: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover {
+    /* height: 100%;
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: pink;
+    border-radius: 10px; */
+    /* color:lightslategray; */
+    color: lightcoral;
+}
+
+/* <----------------------------The End------------------------------------> */
+
+/* <-------------------CSS Style for Banner Section------------------------> */
+.banner1 {
+    background-image: url("images/hero1.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-position: top 40% right 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 70px;
+    margin: 20px 10px;
+}
+
+.banner1 h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner1 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.banner1 h5 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.banner1 p {
+    margin-top: 10px;
+}
+
+.banner1 button {
+    background-image: url("images/button.png");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 14px 80px 14px 65px;
+    margin-top: 10px;
+}
+
+/* <------------------------The End--------------------------------------> */
+
+/* <------------------------CSS Style for Product Section----------------> */
+.product1 {
+    text-align: center;
+    margin: 0 70px;
+}
+
+.product1 .heading h2 {
+    font-size: 46px;
+    color: #222;
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.product1 .heading p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.product1 .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.product1 .product {
+    width: 23%;
+    min-width: 250px;
+    border: 1px solid #cce7d0;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
+    margin: 15px 0;
+    padding: 10px 12px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.product1 .product:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.product1 .product img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product1 .product .details {
+    text-align: start;
+    padding: 10px 0;
+}
+
+.product1 .product .details span {
+    color: #606063;
+    font-size: 12px;
+}
+
+.product1 .product .details h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.product1 .product .details i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+.product1 .product .details h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.product1 .product .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #08f6ea;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+.product1 .product h5 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* <------------------------The End-------------------------------------> */
+
+/* <-----------------CSS Style for Newsletter Section-------------------> */
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("Images/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    height: 120px;
+    padding: 0 23px;
+    margin: 30px 20px;
+}
+
+.newsletter h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.newsletter p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.newsletter p span {
+    color: #ffbd27;
+}
+
+.newsletter input {
+    height: 3.125rem;
+    font-size: 14px;
+    padding: 0 1.25rem;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.newsletter button {
+    height: 3.125rem;
+    font-size: 14px;
+    padding: 0 1.25rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    white-space: nowrap;
+    background-color: #088178;
+    color: #fff;
+}
+
+/* <---------------------------The End-----------------------------------> */
+
+/* <-------------------CSS Style for Footer Section----------------------> */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 70px
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 5px 0;
+}
+
+footer .logo {
+    margin-top: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    padding: 5px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-top: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .col-install {
+    padding: 10px;
+}
+
+footer .col-install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+/* <-------------------------------The End----------------------------------------> */
+
+/* <-------------------CSS Style for Product Details Section----------------------> */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.single-product {
+    margin-top: 80px;
+}
+
+.single-product .col-2 img {
+    padding: 0;
+}
+
+.single-product .col-2 {
+    padding: 20px;
+}
+
+.single-product h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product h1 {
+    margin-top: 20px;
+}
+
+.single-product select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    outline: none;
+}
+
+.single-product input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    /* border: 1px solid #ff523b; */
+    outline: none;
+}
+
+.single-product .btn {
+    width: 50px;
+    height: 40px;
+    /* border: 1px solid #a9a7a7c2; */
+    background: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.single-product .btn:hover {
+    background: #ff523b;
+}
+
+.single-product h3 {
+    margin-top: 10px;
+}
+
+.single-product a {
+    text-decoration: none;
+    font-size: bold;
+}
+
+.single-product .fa {
+    color: #ff523b;
+    margin-left: 10px;
+}
+
+/* <-----------------------------------The End---------------------------------> */
+
+/* <--------------------------CSS Style for About Section----------------------> */
+.about {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* <--------------------------------------The End-------------------------------> */
+
+/* <-----------------------CSS Style for Profile Section------------------------> */
+.account {
+    padding: 50px 0;
+    /* background: radial-gradient(#fff, #ffd6d6); */
+    background: url("images/hero1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-position: top 40% right 0;
+    padding: 0 70px;
+    margin: 0px 10px;
+}
+
+.form-container {
+    background: aliceblue;
+    width: 300px;
+    height: 400px;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 125px;
+    left: 220px;
+    border-radius: 5px;
+}
+
+.form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+.form-container form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 100px;
+    transition: transfom 1s;
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+form .btn {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+form .btn:hover {
+    background: #08f6ea
+}
+
+form .btn:focus {
+    outline: none;
+}
+
+#login {
+    left: -300px;
+}
+
+#register {
+    left: 0;
+}
+
+form a {
+    font-size: 12px;
+}
+
+#indicator {
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+/* <-------------------------------The End-------------------------------> */
+
+/* <----------------------CSS Style for Cart Section----------------------> */
+.cart-page {
+    margin: 80px 85px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    background: #ff523b;
+    color: #fff;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ff523b;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid #ff523b;
+    width: 80%;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+/* <----------------------------The End-------------------------------------> */

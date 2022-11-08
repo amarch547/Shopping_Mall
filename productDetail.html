@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Mall</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ac88c8ce0e.js"></script>
+</head>
+
+<body>
+    <!------------------------HTML Code for Header Section--------------------------->
+    <section class="header">
+        <a href="index.html"><img src="images/Logo3.png" alt="Logo" id="logo"></a>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products and more" id="search">
+            <button id="btton">Search</button>
+            <!-- <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+            <!-- <img src="images/slogo.png" alt=""> -->
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="account.html">Account</a></li> -->
+                <li id="profile"><a href="profile.html"><i class="fa-solid fa-user"></i></a></li>
+                <li id="cart"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <!---------------------------------------The End------------------------------>
+
+    <!----------------HTML Code for Single Product Detail Section------------------>
+    <section class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/Product/3.jpg" alt="" width="250px">
+            </div>
+            <div class="col-2">
+                <p>Peter England</p>
+                <h1>Men Formal Blazer</h1>
+                <h4>Rs.2799</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" value="1">
+                <a href="cart.html" class="btn">Add To Cart</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit natus, fuga expedita aperiam ea
+                    itaque similique eos, optio ullam quaerat dolorum soluta officiis est repellat atque quo, quasi illo
+                    libero numquam vel laboriosam nam! Deserunt eaque optio accusantium ipsa dignissimos! Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Maxime tenetur non eos placeat, omnis sapiente cumque!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------The End------------------------------------>
+
+    <!--------------------HTML Code for Related Product Section------------------->
+    <section class="product1">
+        <div class="heading">
+            <h2>Related Products</h2>
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <img src="images/Product/3.jpg" alt="">
+                <div class="details">
+                    <span>Peter England</span>
+                    <h5>Men Formal Blazer</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.2799</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="images/Product/12.jpg" alt="">
+                <div class="details">
+                    <span>Adidas</span>
+                    <h5>Girls Pure Cotton T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.999</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="images/Product/4.jpg" alt="">
+                <div class="details">
+                    <span>Levis</span>
+                    <h5>Woman Blue-White Jeans</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.1799</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="images/Product/10.jpg" alt="">
+                <div class="details">
+                    <span>Vero Moda</span>
+                    <h5>Woman Top</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.699</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="images/Product/1.jpg" alt="">
+                <div class="details">
+                    <span>Adidas</span>
+                    <h5>Black Men-Shooes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.1999</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="images/Product/11.jpg" alt="">
+                <div class="details">
+                    <span>H&M</span>
+                    <h5>Kids-Wear Pack of 5</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.899</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="images/Product/7.jpg" alt="">
+                <div class="details">
+                    <span>Adidas</span>
+                    <h5>Men Black-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.1199</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="images/Product/2.jpg" alt="">
+                <div class="details">
+                    <span>Levis</span>
+                    <h5>Men Dress Set Pack of 4</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.2499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="product-container">
+                <div class="product">
+                    <img src="images/Product/a.jpg" alt="">
+                    <div class="details">
+                        <span>Adidas</span>
+                        <h5>Men Black-Suit</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.2999</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="images/Product/b.jpg" alt="">
+                    <div class="details">
+                        <span>Adidas</span>
+                        <h5>Woman Cap</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.499</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="images/Product/d.jpg" alt="">
+                    <div class="details">
+                        <span>Peter England</span>
+                        <h5>Men Navy-Blue Shooes</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.1499</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="images/Product/c.jpg" alt="">
+                    <div class="details">
+                        <span>Levis</span>
+                        <h5>Woman White-Top</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.799</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="images/Product/e.jpg" alt="">
+                    <div class="details">
+                        <span>Denim</span>
+                        <h5>Men T-Shirt Pack of 5</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.1249</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="images/Product/f.jpg" alt="">
+                    <div class="details">
+                        <span>Adidas</span>
+                        <h5>Men White-Blue Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.1599</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="images/Product/h.jpg" alt="">
+                    <div class="details">
+                        <span>Voyage</span>
+                        <h5>Unisex Sunglases</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.799</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="images/Product/g.jpg" alt="">
+                    <div class="details">
+                        <span>Levis</span>
+                        <h5>Men Coat</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.1799</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                </div>
+            </div>
+    </section>
+    <!-------------------------------The End---------------------------------------->
+
+    <!-------------------HTML Code for Newsletter Section--------------------------->
+    <section class="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>
+                Get E-mail updates about our latest products and <span>Special Offers.</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your email address">
+            <button class="btn">Sign Up</button>
+        </div>
+    </section>
+    <!-------------------------------The End----------------------------------------->
+
+    <!------------------------HTML Code for Footer Section--------------------------->
+    <footer class="footer">
+        <div class="col">
+            <!-- <img src="Images/Logo3.png" alt="Logo" width="140px"> -->
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Plot No-371,Gorakhpur -273001 Near Mohaddipur Crossing</p>
+            <p><Strong>Phone:</Strong> +91 222 365/+91 0123 456 789</p>
+            <p><strong>Hours:</strong>10AM-10PM,Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col-install">
+            <h4>Install App</h4>
+            <p>From Google Play or App Store</p>
+            <div class="row">
+                <img src="images/play.jpg" alt="">
+                <img src="images/app.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>&copy; HTML CSS JavaScript 2022 Ecommerce Template</p>
+        </div>
+    </footer>
+    <!----------------------------------The End----------------------------------->
+</body>
+
+</html>
